@@ -62,8 +62,8 @@ Micro-Down
 
    Setting the position: 
    
-   **<= 49** will move the blind down, this means set position 25, moves the blind down and stops after 25% of your close_time
+   **<= 49** will move the blind down, this means set position 25, moves the blind down and stops after 50% of your close_time
       
-   **>=51** will move the blind up, this means set position 75, moves the blind up and stops after 25% of your close_time
+   **>=51** will move the blind up, this means set position 75, moves the blind up and stops after 50% of your close_time
    
    **==50** will set your blind to its stored favourite position 
