@@ -42,3 +42,25 @@ The blind code. - this is available from the NeoSmartBlind app
 
 **close_time** _(string)(Required)_
 Time taken in seconds to close this blind (use a stop watch to measure)
+
+
+## Supported features
+
+**Open**
+Up
+
+**Close**
+Down
+
+**Tilt-Up**
+Micro-Up
+
+**Tilt-Down**
+Micro-Down
+
+**Set-Position & Favourite Position** - please note this is calculated using the close_time
+Timed up/down (stop after X seconds)
+Setting the position: 
+**<= 49** will move the blind down, this means set position 25, moves the blind down and stops after 25% of your close_time
+**>=51** will move the blind up, this means set position 75, moves the blind up and stops after 25% of your close_time
+**==50** will set your blind to its stored favourite position 
