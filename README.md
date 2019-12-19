@@ -26,7 +26,8 @@ cover:
 
 ## Configuration variables
 
-media_player:
+cover:
+
 **platform** (string)(Required) 
 Must be set to neosmartblinds
 
